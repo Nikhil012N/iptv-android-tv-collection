@@ -4,15 +4,17 @@ A collection of prebuilt Android APKs for IPTV applications, optimized for diffe
 
 ## 📥 Downloads
 
-Choose the APK that matches your device architecture.
+> **Note:** GitHub may open the APK preview page first. Click **Download** or use the **Raw** link to download the file.
 
-| APK | Architecture | Recommended For |
-|-----|--------------|-----------------|
-| **app-arm64-v8a-release.apk** | ARM 64-bit | ✅ Most modern Android phones, TVs, and TV Boxes |
-| **app-armeabi-v7a-release.apk** | ARM 32-bit | Older Android devices |
-| **app-x86-release.apk** | Intel 32-bit | Older Android emulators and Intel devices |
-| **app-x86_64-release.apk** | Intel 64-bit | Android Studio Emulator and Chromebooks |
-| **app-universal-release.apk** | Universal | Works on all supported devices (larger download size) |
+| APK | Architecture | Download |
+|-----|--------------|----------|
+| **ARM64 (Recommended)** | arm64-v8a | [Download](https://github.com/Nikhil012N/iptv-android-tv-collection/raw/main/app-arm64-v8a-release.apk) |
+| **ARM 32-bit** | armeabi-v7a | [Download](https://github.com/Nikhil012N/iptv-android-tv-collection/raw/main/app-armeabi-v7a-release.apk) |
+| **Intel 32-bit** | x86 | [Download](https://github.com/Nikhil012N/iptv-android-tv-collection/raw/main/app-x86-release.apk) |
+| **Intel 64-bit** | x86_64 | [Download](https://github.com/Nikhil012N/iptv-android-tv-collection/raw/main/app-x86_64-release.apk) |
+| **Universal (All Devices)** | Universal | [Download](https://github.com/Nikhil012N/iptv-android-tv-collection/raw/main/app-universal-release.apk) |
+
+---
 
 ## 📺 Supported Devices
 
@@ -20,44 +22,41 @@ Choose the APK that matches your device architecture.
 - Google TV
 - Android Phones
 - Android Tablets
-- TV Boxes
-- Fire TV (sideload)
+- Android TV Boxes
+- Amazon Fire TV (Sideload)
 - Android Emulators
+
+---
 
 ## 🚀 Installation
 
-1. Download the appropriate APK for your device.
-2. Enable **Install unknown apps** (if installing outside Google Play).
-3. Open the APK and follow the installation prompts.
-4. Launch the app and enjoy.
+1. Download the APK that matches your device.
+2. Enable **Install unknown apps** in Android settings if required.
+3. Open the downloaded APK and install it.
+4. Launch the app.
 
-## 📦 Which APK Should I Download?
+---
+
+## 🤔 Which APK Should I Download?
 
 | Device | Recommended APK |
 |---------|-----------------|
-| Modern Android Phone | `app-arm64-v8a-release.apk` |
-| Android TV / Google TV | `app-arm64-v8a-release.apk` |
-| Older Android Device | `app-armeabi-v7a-release.apk` |
-| Android Studio Emulator | `app-x86_64-release.apk` |
-| Not Sure? | `app-universal-release.apk` |
+| Android TV / Google TV | ARM64 |
+| Modern Android Phone | ARM64 |
+| Older Android Device | ARM 32-bit |
+| Android Studio Emulator | x86_64 |
+| Not Sure? | Universal |
 
-## 🔧 Supported CPU Architectures
-
-- ARM64 (`arm64-v8a`)
-- ARM32 (`armeabi-v7a`)
-- x86
-- x86_64
+---
 
 ## ⚠️ Disclaimer
 
 This repository **does not provide IPTV channels, playlists, or copyrighted content**.
 
-It only contains application builds. Users must provide their own legally obtained IPTV playlists or streaming sources.
+It only distributes application builds. Users are responsible for supplying their own legally obtained IPTV playlists or streaming sources.
 
-The repository owner is **not responsible** for any third-party content accessed through IPTV applications.
+---
 
 ## 📄 License
 
-This repository is provided for educational and distribution purposes.
-
-Please respect the licenses and terms of use of any IPTV applications and content providers.
+See the LICENSE file for details.
